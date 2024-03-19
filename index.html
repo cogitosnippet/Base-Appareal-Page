@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Manrope:wght@200..800&family=Overpass:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="images/logo.svg" alt="logo" class="logo-image">
+    <div class="left">
+      <div class="about">
+        <h1 class="heading">We're <span class="alert">coming soon</span></h1>
+        <p class="information">  Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
+        <div class="form">
+          <input type="text" placeholder="Email Address" class="input" id="input-id" value="">
+          <img src="images/icon-error.svg" alt="icon-error" class="error-img hidden" id="error-id">
+          <button type="submit" class="but" id="but-id"><img src="images/icon-arrow.svg" alt="icon-arrow" class="but-img"></button>
+        </div>
+        <p class="alert-msg hidden" id="alert-id">Please provide valid email</p>
+        <p class="success-msg hidden" id="success-id">Sucess! Will get in touch shortly</p>
+      </div>
+    </div>
+    <div class="right">
+      <img src="images/hero-desktop.jpg" class="hero-image" alt="hero-image">
+      <img src="images/hero-mobile.jpg" class="hero-image-mobile" alt="hero-image">
+    </div>
+  </div>
+  <footer>
+    <p class="attribution">
+      Coded by <a href="#">Gautam</a>.
+    </p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
